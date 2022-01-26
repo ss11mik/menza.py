@@ -9,6 +9,9 @@
 ## Termux
 Při spuštění v Termuxu dokáže vytvořit notifikaci s jídelníčkem. Vyžaduje Python a Termux API.
 
+### Ikona na plochu
+Pomocí Termuxu lze vytvořit [widgety/ikony](https://github.com/termux/termux-widget) na plochu, které spustí skript a vytvoří notifikaci s jídelníčkem. Pro příklad viz [`.shortcuts`](https://github.com/ss11mik/menza.py/tree/master/.shortcuts).
+
 ## použití
 ```
 usage: menza.py [-h] [-b] [-t] [provoz]
